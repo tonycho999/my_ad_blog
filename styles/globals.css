@@ -1,0 +1,24 @@
+/* Tailwind CSS의 기본 지시어 (필수) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 블로그 전체 기본 스타일 재정의 */
+@layer base {
+  body {
+    /* 눈이 편안한 밝은 회색 배경과 진한 회색 글자색 적용 */
+    @apply bg-gray-50 text-gray-900; 
+  }
+
+  /* 목차나 각주 링크 클릭 시 부드럽게 이동하도록 설정 */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* 마크다운 본문(prose) 내부의 이미지 최적화 스타일 추가 */
+@layer utilities {
+  .prose img {
+    @apply mx-auto rounded-xl shadow-sm border border-gray-100;
+  }
+}
