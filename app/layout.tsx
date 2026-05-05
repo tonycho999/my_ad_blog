@@ -1,6 +1,6 @@
 
-import '@/styles/globals.css';
-import '@/styles/syntax.css';
+import './globals.css';
+import './syntax.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
