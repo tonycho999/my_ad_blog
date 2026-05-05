@@ -6,7 +6,7 @@ export default function Header() {
       <div className="container mx-auto flex justify-between items-center px-4">
         {/* 블로그 로고는 SEO를 위해 남겨두되, 다른 링크는 제거합니다. */}
         <Link href="/" className="text-2xl font-bold tracking-tight text-gray-900">
-          My Ad Blog
+          My Blog
         </Link>
         
         {/* 네비게이션 메뉴 삭제됨 */}
