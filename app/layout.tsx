@@ -25,6 +25,9 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header />
         <main>{children}</main>
+        <div className="hidden">
+          Impact-Site-Verification: f0b8d1a5-b171-4135-a742-9dcc402f2f4f
+        </div>
         <Footer />
       </body>
     </html>
