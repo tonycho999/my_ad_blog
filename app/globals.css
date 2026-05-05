@@ -22,3 +22,11 @@
     @apply mx-auto rounded-xl shadow-sm border border-gray-100;
   }
 }
+/* 마크다운 h2 제목 디자인 강제 덮어쓰기 (푸른색 + 밑줄) */
+.prose h2 {
+  color: #1d4ed8 !important; /* text-blue-700 색상 강제 적용 */
+  border-bottom: 1px solid #e5e7eb !important; /* 아래쪽 회색 밑줄 */
+  padding-bottom: 0.5rem !important;
+  margin-top: 3rem !important;
+  margin-bottom: 1rem !important;
+}
