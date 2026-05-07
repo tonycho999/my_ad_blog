@@ -42,11 +42,8 @@ export default function HomePage() {
       
       {/* 🚀 수정된 부분: 그라데이션 타이틀과 인디고 서브타이틀 */}
       <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-2">
-        Product Review
-      </h1>
-      <p className="text-xl font-bold text-indigo-600 mb-8 border-b pb-4">
         최신 리뷰 및 추천 가이드
-      </p>
+      </h1>
       
       <div className="space-y-6">
         {posts.map(post => (
