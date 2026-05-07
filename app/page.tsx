@@ -38,10 +38,15 @@ export default function HomePage() {
     .sort((a, b) => (a.date < b.date ? 1 : -1));
 
   return (
-    <div className="container mx-auto px-4 max-w-3xl min-h-[60vh]">
-      <h1 className="text-3xl font-extrabold text-gray-900 mb-8 border-b pb-4">
-        최신 리뷰 및 추천 가이드
+    <div className="container mx-auto px-4 max-w-3xl min-h-[60vh] pt-10">
+      
+      {/* 🚀 수정된 부분: 그라데이션 타이틀과 인디고 서브타이틀 */}
+      <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-2">
+        Product Review
       </h1>
+      <p className="text-xl font-bold text-indigo-600 mb-8 border-b pb-4">
+        최신 리뷰 및 추천 가이드
+      </p>
       
       <div className="space-y-6">
         {posts.map(post => (
